@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторна робота №5</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:#ffe6f0; 
+        }
+        header, footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+        }
+          .map-container {=
+            border: 1px solid #ddd;
+            padding: 10px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .video, .audio, .widget {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Лабораторна робота №5</h1>
+        <p>Карта, відео, аудіо та віджети</p>
+    </header>
+	  <h1>Карта міста Ізмаїл, Одеська область</h1>
+    <div style="border: 1px solid #ddd;">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d89725.24048830774!2d28.845226500000006!3d45.350553000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b765e4f741561f%3A0xbd9ad82dec72627d!2z0IbQt9C80LDRl9C7LCDQntC00LXRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjCwgNjg2MDA!5e0!3m2!1suk!2sua!4v1731072378763!5m2!1suk!2sua"
+            width="600"
+            height="450"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+ <h2>Відео з YouTube</h2>
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/2Sg8uQhu7EU?si=HtWUoeVF-7VhbIDF" 
+frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/Ohqd24zicyc?si=97EEfxkDmczo3y_f" 
+frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<h2>Музичний файл</h2>
+<audio controls>
+  <source src="endless-beauty-main-11545.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<audio controls>
+  <source src="beyond-the-time-main-7425.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<audio controls>
+  <source src="fly-high-relax-deep-house-189886.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<h2>Відео з Vimeo</h2>
+<iframe src="https://player.vimeo.com/video/52007542?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
+width="640" height="360" frameborder="0" allow="autoplay; 
+fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/104810175?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
+width="640" height="360" frameborder="0" allow="autoplay; 
+fullscreen" allowfullscreen></iframe>
+<a class="weatherwidget-io" href="https://forecast7.com/en/45d3528d85/izmail/" data-label_1="IZMAIL" data-label_2="WEATHER" data-theme="original" >IZMAIL WEATHER</a>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];
+if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}
+(document,'script','weatherwidget-io-js');
+</script>
+</body>
+</html>
